@@ -30,12 +30,12 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Tire Gas Pressures"];	// define the titles
 channels		[i] = ["pTyreFL_Mean", "pTyreFR_Mean", "pTyreRL_Mean", "pTyreRR_Mean"];	// define the channels for the diagrams
-min_max			[i] = [1.5, 3.2, 1.5, 3.2, 1.5, 3.2, 1.5, 3.2];	// define the min/max for the diagram y-axis
+min_max			[i] = [1.5, 2.2, 1.5, 2.2, 1.5, 2.2, 1.5, 2.2];	// define the min/max for the diagram y-axis
 unit			[i] = ["bar", "bar", "bar", "bar"];	// define the units
 color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [""];	// define position for y-axis (0 = left, 1 = right)
 dash_channels	[i] = [0, 0, 0, 0];	// dash for channels (0 = no dash)
-trend_line		[i] = [25];	// define values for trend lines
+trend_line		[i] = [1.8];	// define values for trend lines
 trendline_color	[i] = ["green"];	// Define colors for trend lines
 precision		[i] = [];	// define number of decimal places for y-axis
 
