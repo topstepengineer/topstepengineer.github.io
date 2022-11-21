@@ -23,8 +23,8 @@ unit			[i] = ["degC", "degC", "degC", "degC"];	// define the units
 color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [""];	// define position for y-axis (0 = left, 1 = right)
 dash_channels	[i] = [0, 0, 0, 0];	// dash for channels (0 = no dash)
-trend_line		[i] = [300, 500];	// define values for trend lines
-trendline_color	[i] = ["blue", "red"];	// Define colors for trend lines
+trend_line		[i] = [350, 500];	// define values for trend lines
+trendline_color	[i] = ["white", "red"];	// Define colors for trend lines
 precision		[i] = [];	// define number of decimal places for y-axis
 
 i = i + 1;
