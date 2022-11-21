@@ -8,8 +8,8 @@ var myDataFrontPage = "F255_04_VEH_KPIs.csv";
 
 var minDistance = 1500; //minimum lap distance for filter
 
-var minLaptime = 90.5;
-var avgLaptime = 94;
+var minLaptime = 93;
+var avgLaptime = 95;
 var maxLaptime = 98;
 
 var maxSpeed = 325;
