@@ -1,6 +1,6 @@
 
-var myData = "../../F255_04_VEH_KPIs.csv";
-var myDataFrontPage = "F255_04_VEH_KPIs.csv";
+var myData = "../../myData.csv";
+var myDataFrontPage = "myData.csv";
 // var myData = "//wecfsc01/LMH/Test_22/1122_Aragon/_Documents/_Report/_KPIs/myData.csv";
 // var myDataFrontPage = "//wecfsc01/LMH/Test_22/1122_Aragon/_Documents/_Report/_KPIs/myData.csv";
 // var myDataFrontPage = "https://s3.eu-west-3.amazonaws.com/lmh.kpi.ch004/myData.csv";
