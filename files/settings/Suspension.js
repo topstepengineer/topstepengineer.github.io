@@ -43,13 +43,13 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["3rd Element Forces"];	// define the titles
 channels		[i] = ["FMonoF_Max", "FMonoR_Max"];	// define the channels for the diagrams
-min_max			[i] = [0, 1000, 0, 1000];	// define the min/max for the diagram y-axis
+min_max			[i] = [0, 1500, 0, 1500];	// define the min/max for the diagram y-axis
 unit			[i] = ["kg", "kg"];	// define the units
 color_channels	[i] = [colFR, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
 dash_channels	[i] = [0, 0];	// dash for channels (0 = no dash)
-trend_line		[i] = [];	// define values for trend lines
-trendline_color	[i] = [""];	// Define colors for trend lines
+trend_line		[i] = [1000];	// define values for trend lines
+trendline_color	[i] = ["red"];	// Define colors for trend lines
 precision		[i] = [];	// define number of decimal places for y-axis
 
 i = i + 1;
@@ -139,7 +139,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Grip Limited CPL Variations"];	// define the titles
 channels		[i] = ["CPLvariationFL_GL", "CPLvariationFR_GL", "CPLvariationRL_GL", "CPLvariationRR_GL" ];	// define the channels for the diagrams
-min_max			[i] = [3000, 6000, 3000, 6000, 3000, 6000, 3000, 6000];	// define the min/max for the diagram y-axis
+min_max			[i] = [3000, 10000, 3000, 10000, 3000, 10000, 3000, 10000];	// define the min/max for the diagram y-axis
 unit			[i] = [" N", " N", " N", " N"];	// define the units
 color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [""];	// define position for y-axis (0 = left, 1 = right)
@@ -199,7 +199,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Pushrod Loads EoS"];	// define the titles
 channels		[i] = ["FPushrodFL_TS", "FPushrodFR_TS", "FPushrodRL_TS", "FPushrodRR_TS" ];	// define the channels for the diagrams
-min_max			[i] = [4000, 15000, 4000, 15000, 4000, 15000, 4000, 15000];	// define the min/max for the diagram y-axis
+min_max			[i] = [4000, 20000, 4000, 20000, 4000, 20000, 4000, 20000];	// define the min/max for the diagram y-axis
 unit			[i] = ["N", "N", "N", "N"];	// define the units
 color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [""];	// define position for y-axis (0 = left, 1 = right)
