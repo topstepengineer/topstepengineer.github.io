@@ -1,6 +1,6 @@
 
-var myData = "../../F255_04_VEH_KPIs.csv";
-var myDataFrontPage = "F255_04_VEH_KPIs.csv";
+var myData = "../../myData.csv";
+var myDataFrontPage = "myData.csv";
 // var myData = "//wecfsc01/LMH/Test_22/1122_Aragon/_Documents/_Report/_KPIs/myData.csv";
 // var myDataFrontPage = "//wecfsc01/LMH/Test_22/1122_Aragon/_Documents/_Report/_KPIs/myData.csv";
 // var myDataFrontPage = "https://s3.eu-west-3.amazonaws.com/lmh.kpi.ch004/myData.csv";
@@ -8,15 +8,15 @@ var myDataFrontPage = "F255_04_VEH_KPIs.csv";
 
 var minDistance = 1500; //minimum lap distance for filter
 
-var minLaptime = 93;
-var avgLaptime = 95;
-var maxLaptime = 98;
+var minLaptime = 79;
+var avgLaptime = 82;
+var maxLaptime = 90;
 
-var maxSpeed = 325;
+var maxSpeed = 338;
 
-var Drv1 = 'MOL' //'c68e366a-5a8f-4f3a-bd81-84b1e9762a1b';
-var Drv2 = 'APG' //'36151730-b89c-4305-84e7-445b05646872';
-var Drv3 = 'NIE' //'de7faf50-914b-4b92-b263-15aeabb7dc9c';
+var Drv1 = 'NIE' //'c68e366a-5a8f-4f3a-bd81-84b1e9762a1b';
+var Drv2 = 'GIO' //'36151730-b89c-4305-84e7-445b05646872';
+var Drv3 = 'APG' //'de7faf50-914b-4b92-b263-15aeabb7dc9c';
 
 var timeZoneOffset = 4;
 
