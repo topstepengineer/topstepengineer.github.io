@@ -12,7 +12,7 @@ var minLaptime = 79;
 var avgLaptime = 82;
 var maxLaptime = 90;
 
-var maxSpeed = 338;
+var maxSpeed = 345;
 
 var Drv1 = 'NIE' //'c68e366a-5a8f-4f3a-bd81-84b1e9762a1b';
 var Drv2 = 'GIO' //'36151730-b89c-4305-84e7-445b05646872';
