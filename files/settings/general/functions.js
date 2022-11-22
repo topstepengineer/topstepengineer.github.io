@@ -35,7 +35,7 @@ function convertTimes(results) {
 			if(results.data[k].Nsession != results.data[k-1].Nsession) {
 				sessionNames[z] = results.data[k].Nsession;
 				// sessionLaps[z] = k +1;
-				sessionLaps[z] = results.data[k+1].Total_Laps*1;
+				sessionLaps[z] = results.data[k+1].TotalLaps*1;
 				z = z + 1;
 				//console.log(sessionLaps);
 			}
@@ -106,7 +106,7 @@ function plot_graphs(chart, avgLaptime) {
 	// Define the x-axis
 	var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
 	//categoryAxis.baseInterval = {count:avgLaptime, timeUnit: "second"}
-	categoryAxis.dataFields.category = "Total_Laps";
+	categoryAxis.dataFields.category = "TotalLaps";
 	categoryAxis.title.text = "Lap Number";
 	categoryAxis.title.fontSize = 12;
 	categoryAxis.title.fontColor = "White";
@@ -136,7 +136,7 @@ function plot_graphs(chart, avgLaptime) {
 		//define which values to use for the x and y axes.
 		series.dataFields.valueY = channels[i][j];
 		
-		series.dataFields.categoryX = "Total_Laps";
+		series.dataFields.categoryX = "TotalLaps";
 		series.name = channels[i][j];
 		
 		//setup the y-axis labels and min/max
@@ -247,7 +247,7 @@ function addTrendline(chart, seriesID, i, m) {
 	var series = new am4charts.LineSeries();  
 	series.data = chart.data;  
 	series.dataFields.valueY = "value" + seriesID;
-	series.dataFields.categoryX = "Total_Laps";
+	series.dataFields.categoryX = "TotalLaps";
 	// series.name = channels[i][j] + "_lim";
 	series.strokeWidth = 3;
 	series.strokeDasharray = "5,3";
