@@ -18,7 +18,7 @@ i=0;
 i = i + 1;
 dia_title		[i] = ["Max Speed"];	// define the titles
 channels		[i] = ["vCar_Max"];	// define the channels for the diagrams
-min_max			[i] = [maxSpeed - 10, maxSpeed];	// define the min/max for the diagram y-axis
+min_max			[i] = [maxSpeed - 20, maxSpeed];	// define the min/max for the diagram y-axis
 unit			[i] = ["kph"];	// define the units
 color_channels	[i] = ["green", colDefault];	// colors for channels ("" = standard color)
 pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
