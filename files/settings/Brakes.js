@@ -126,7 +126,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Brake Wear Inside"];	// define the titles
 channels		[i] = ["xBrakepadInboardFL_Max", "xBrakepadInboardFR_Max", "xBrakepadInboardRL_Max", "xBrakepadInboardRR_Max"];	// define the channels for the diagrams
-min_max			[i] = [0, 10,0, 10,0, 10,0, 10];	// define the min/max for the diagram y-axis
+min_max			[i] = [0, 15,0, 15,0, 15,0, 15];	// define the min/max for the diagram y-axis
 unit			[i] = [" mm"," mm"," mm"," mm"];	// define the units
 color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [""];	// define position for y-axis (0 = left, 1 = right)
@@ -138,7 +138,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Brake Wear Outside"];	// define the titles
 channels		[i] = ["xBrakepadOutboardFL_Max", "xBrakepadOutboardFR_Max", "xBrakepadOutboardRL_Max", "xBrakepadOutboardRR_Max"];	// define the channels for the diagrams
-min_max			[i] = [0, 10,0, 10,0, 10,0, 10];	// define the min/max for the diagram y-axis
+min_max			[i] = [0, 15,0, 15,0, 15,0, 15];	// define the min/max for the diagram y-axis
 unit			[i] = [" mm"," mm"," mm"," mm"];	// define the units
 color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [""];	// define position for y-axis (0 = left, 1 = right)
