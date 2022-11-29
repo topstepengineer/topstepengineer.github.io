@@ -110,7 +110,7 @@ trendline_color	[6] = [""];	// Define colors for trend lines
 precision		[6] = [];	// define number of decimal places for y-axis
 
 dia_title		[7] = ["Average On-Throttle RPM"];	// define the titles
-channels		[7] = ["rpm_thr_mean"];	// define the channels for the diagrams
+channels		[7] = ["FCT_nEngineOnThrottle_Max"];	// define the channels for the diagrams
 min_max			[7] = [""];	// define the min/max for the diagram y-axis
 unit			[7] = ["RPM"];	// define the units
 color_channels	[7] = ["green"];	// colors for channels ("" = standard color)
