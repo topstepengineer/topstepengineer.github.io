@@ -111,7 +111,7 @@ precision		[6] = [];	// define number of decimal places for y-axis
 
 dia_title		[7] = ["Average On-Throttle RPM"];	// define the titles
 channels		[7] = ["FCT_nEngineOnThrottle_Max"];	// define the channels for the diagrams
-min_max			[7] = [""];	// define the min/max for the diagram y-axis
+min_max			[7] = [6000,9000];	// define the min/max for the diagram y-axis
 unit			[7] = ["RPM"];	// define the units
 color_channels	[7] = ["green"];	// colors for channels ("" = standard color)
 pos_axis		[7] = [0];	// define position for y-axis (0 = left, 1 = right)
