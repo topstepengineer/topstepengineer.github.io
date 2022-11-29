@@ -17,7 +17,7 @@ dia_title[5] = ["AGS Activity"];
 // channels[0] = ["Laptime"];
 channels[1] = ["TOilGbx_Min", "TOilGbx_Max"];
 channels[2] = ["pOilGearboxIn_Min", "pOilGearboxIn_Max"];
-channels[3] = ["shift_count_max"];
+channels[3] = ["nShiftUpCount_End", "nShiftDwnCount_End"];
 channels[4] = ["RPM_shift_1st_max", "RPM_shift_2nd_max", "RPM_shift_3rd_max", "RPM_shift_4th_max", "RPM_shift_5th_max"];
 channels[5] = ["GCU_CUR_COMP_AVG_mean"];
 
