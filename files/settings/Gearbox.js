@@ -40,7 +40,7 @@ min_max[5] = [0, 7];
 // unit[0] = [" sec"];
 unit[1] = [" degC"];
 unit[2] = [" bar", " bar"];
-unit[3] = [" # of shifts"];
+unit[3] = [" # of shifts", " # of shifts"];
 unit[4] = [" rpm", " rpm", " rpm", " rpm", " rpm"];
 unit[5] = ["Misc"];
 
@@ -49,7 +49,7 @@ unit[5] = ["Misc"];
 // color_channels[0] = [colDefault];
 color_channels[1] = ["green", "red"];
 color_channels[2] = ["green", "red"];
-color_channels[3] = [colDefault];
+color_channels[3] = ["green", "red"];
 color_channels[4] = [colFL, colFR, colRL, colRR, "green"];
 color_channels[5] = ["red"];
 
