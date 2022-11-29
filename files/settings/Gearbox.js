@@ -50,7 +50,7 @@ unit[5] = ["Misc"];
 color_channels[1] = ["green", "red"];
 color_channels[2] = ["green", "red"];
 color_channels[3] = ["green", "red"];
-color_channels[4] = [colFL, colFR, colRL, colRR, "green"];
+color_channels[4] = [colFL, colFR, colRL, colRR, "green", colDefault];
 color_channels[5] = ["red"];
 
 // define position for y-axis (0 = left, 1 = right)
