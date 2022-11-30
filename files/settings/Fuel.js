@@ -30,7 +30,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Collector Level"];	// define the titles
 channels		[i] = ["xFuelCollector_Min", "xFuelCollector_Max"];	// define the channels for the diagrams
-min_max			[i] = [0, 410];	// define the min/max for the diagram y-axis
+min_max			[i] = [0, 410, 0, 410];	// define the min/max for the diagram y-axis
 unit			[i] = [" degC"];	// define the units
 color_channels	[i] = [colFL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
