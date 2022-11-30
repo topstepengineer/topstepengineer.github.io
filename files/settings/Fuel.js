@@ -27,17 +27,17 @@ trend_line		[i] = [];	// define values for trend lines
 trendline_color	[i] = [""];	// Define colors for trend lines
 precision		[i] = [];	// define number of decimal places for y-axis
 
-//i = i + 1;
-//dia_title		[i] = ["Gaps Ahead and Behind"];	// define the titles
-//channels		[i] = ["MyLaps_GapAhead_mean", "MyLaps_GapBehind_mean", "MyLaps_GapAhead_stddev"];	// define the channels for the diagrams
-//min_max			[i] = [0, 10, 0, 10, 0, 2];	// define the min/max for the diagram y-axis
-//unit			[i] = [" sec", " sec", " sec"];	// define the units
-//color_channels	[i] = ["green", "red", colDefault];	// colors for channels ("" = standard color)
-//pos_axis		[i] = [0,0,"right"];	// define position for y-axis (0 = left, 1 = right)
-//dash_channels	[i] = [0,0,1];	// dash for channels (0 = no dash)
-//trend_line		[i] = [];	// define values for trend lines
-//trendline_color	[i] = [""];	// Define colors for trend lines
-//precision		[i] = [];	// define number of decimal places for y-axis
+i = i + 1;
+dia_title		[i] = ["Collector Level"];	// define the titles
+channels		[i] = ["xFuelCollector_Min", "xFuelCollector_Max"];	// define the channels for the diagrams
+min_max			[i] = [0, 410];	// define the min/max for the diagram y-axis
+unit			[i] = [" degC"];	// define the units
+color_channels	[i] = [colFL, colRR];	// colors for channels ("" = standard color)
+pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
+dash_channels	[i] = [0];	// dash for channels (0 = no dash)
+trend_line		[i] = [];	// define values for trend lines
+trendline_color	[i] = [colDefault];	// Define colors for trend lines
+precision		[i] = [];	// define number of decimal places for y-axis
 
 i = i + 1;
 dia_title		[i] = ["Fuel Rail Pressure"];	// define the titles
