@@ -63,6 +63,18 @@ trend_line		[i] = [0.85];	// define values for trend lines
 trendline_color	[i] = [colDefault];	// Define colors for trend lines
 precision		[i] = [];	// define number of decimal places for y-axis
 
+i = i + 1;
+dia_title		[i] = ["HP Pump Currents"];	// define the titles
+channels		[i] = ["IHPFuelPump1_Min", "IHPFuelPump1_Max", "IHPFuelPump2_Min", "IHPFuelPump1_Max"];	// define the channels for the diagrams
+min_max			[i] = [0, ""];	// define the min/max for the diagram y-axis
+unit			[i] = [" Amps"];	// define the units
+color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
+pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
+dash_channels	[i] = [0];	// dash for channels (0 = no dash)
+trend_line		[i] = [14];	// define values for trend lines
+trendline_color	[i] = [colDefault];	// Define colors for trend lines
+precision		[i] = [];	// define number of decimal places for y-axis
+
 //i = i + 1;
 //dia_title		[i] = ["Stint Consumption"];	// define the titles
 //channels		[i] = ["AJF_f_cons_AJFs_end"];	// define the channels for the diagrams
