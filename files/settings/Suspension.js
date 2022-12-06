@@ -207,3 +207,15 @@ dash_channels	[i] = [0, 0, 0, 0];	// dash for channels (0 = no dash)
 trend_line		[i] = [];	// define values for trend lines
 trendline_color	[i] = [""];	// Define colors for trend lines
 precision		[i] = [];	// define number of decimal places for y-axis
+
+i = i + 1;
+dia_title		[i] = ["Steering Torque and Current"];	// define the titles
+channels		[i] = ["caneps_iem_fer_Min", "caneps_iem_fer_Max", "caneps_msteer_fer_Min", "caneps_msteer_fer_Max" ];	// define the channels for the diagrams
+min_max			[i] = [-150, 150, -150, 150, -20, 20, -20, 20];	// define the min/max for the diagram y-axis
+unit			[i] = ["Amp", "Amp", "Nm", "Nm"];	// define the units
+color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
+pos_axis		[i] = ["left", "left", "right", "right"];	// define position for y-axis (0 = left, 1 = right)
+dash_channels	[i] = [0, 0, 0, 0];	// dash for channels (0 = no dash)
+trend_line		[i] = [];	// define values for trend lines
+trendline_color	[i] = [""];	// Define colors for trend lines
+precision		[i] = [];	// define number of decimal places for y-axis
