@@ -67,7 +67,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Turbo Speeds"];	// define the titles
 channels		[i] = ["nTurboRh_Max", "nTurboLh_Max"];	// define the channels for the diagrams
-min_max			[i] = [180000, 200000, 180000, 200000];	// define the min/max for the diagram y-axis
+min_max			[i] = [150000, 180000, 150000, 180000];	// define the min/max for the diagram y-axis
 unit			[i] = ["rpm", "rpm"];	// define the units
 color_channels	[i] = [colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
