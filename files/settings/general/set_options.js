@@ -8,7 +8,7 @@ var myDataFrontPage = "myData.csv";
 
 var minDistance = 1500; //minimum lap distance for filter
 
-var minLaptime = 81;
+var minLaptime = 81.5;
 var avgLaptime = 83.5;
 var maxLaptime = 90;
 
