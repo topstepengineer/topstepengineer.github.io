@@ -139,7 +139,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Water Pressure"];	// define the titles
 channels		[i] = ["pWater_Min", "pWater_Max"];	// define the channels for the diagrams
-min_max			[i] = [1, 2.5, 1, 2.5];	// define the min/max for the diagram y-axis
+min_max			[i] = [1, 4.5, 1, 4.5];	// define the min/max for the diagram y-axis
 unit			[i] = [" bar", " bar"];	// define the units
 color_channels	[i] = ["green", "red"];	// colors for channels ("" = standard color)
 pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
