@@ -8,11 +8,11 @@ var myDataFrontPage = "myData.csv";
 
 var minDistance = 1500; //minimum lap distance for filter
 
-var minLaptime = 81.5;
-var avgLaptime = 83.5;
-var maxLaptime = 90;
+var minLaptime = 88.5;
+var avgLaptime = 92.5;
+var maxLaptime = 100;
 
-var maxSpeed = 312;
+var maxSpeed = 322;
 
 var Drv1 = 'NIE' //'c68e366a-5a8f-4f3a-bd81-84b1e9762a1b';
 var Drv2 = 'GIO' //'36151730-b89c-4305-84e7-445b05646872';
