@@ -160,6 +160,18 @@ trend_line		[i] = [3, 6];	// define values for trend lines
 trendline_color	[i] = ["red", "red"];	// Define colors for trend lines
 precision		[i] = [];	// define number of decimal places for y-axis
 
+i = i + 1;
+dia_title		[i] = ["Crankcase Pressure"];	// define the titles
+channels		[i] = ["pCrank_Mean"];	// define the channels for the diagrams
+min_max			[i] = [500, 1000];	// define the min/max for the diagram y-axis
+unit			[i] = ["bar"];	// define the units
+color_channels	[i] = [colDefault];	// colors for channels ("" = standard color)
+pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
+dash_channels	[i] = [0];	// dash for channels (0 = no dash)
+trend_line		[i] = [];	// define values for trend lines
+trendline_color	[i] = [];	// Define colors for trend lines
+precision		[i] = [];	// define number of decimal places for y-axis
+
 //i = i + 1;
 //dia_title		[i] = ["Limiters"];	// define the titles
 //channels		[i] = ["CAN_SoftLimiter_Counter_end", "CAN_HardLimiter_LapHits_end"];	// define the channels for the diagrams
