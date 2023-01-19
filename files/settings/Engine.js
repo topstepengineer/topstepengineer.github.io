@@ -55,7 +55,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Wheelspin & TC Interventions"];	// define the titles
 channels		[i] = ["tSpin_End", "tTcIntervention_End"];	// define the channels for the diagrams
-min_max			[i] = [0, avgLaptime/3, 0, avgLaptime/3];	// define the min/max for the diagram y-axis
+min_max			[i] = [0, avgLaptime/2, 0, avgLaptime/2];	// define the min/max for the diagram y-axis
 unit			[i] = [" sec", " sec"];	// define the units
 color_channels	[i] = [colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = ["", ""];	// define position for y-axis (0 = left, 1 = right)
@@ -187,7 +187,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Delta to Ambient"];	// define the titles
 channels		[i] = ["TWaterAmbientDelta_Mean", "TOilAmbientDelta_Mean", "TOilGbxAmbientDelta_Mean"];	// define the channels for the diagrams
-min_max			[i] = [40, 80, 40, 80, 40, 80];	// define the min/max for the diagram y-axis
+min_max			[i] = [40, 100, 40, 100, 40, 100];	// define the min/max for the diagram y-axis
 unit			[i] = ["degC", "degC", "degC"];	// define the units
 color_channels	[i] = ["green", "lightblue", "orange"];	// colors for channels ("" = standard color)
 pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
@@ -199,7 +199,7 @@ precision		[i] = [];	// define number of decimal places for y-axis
 i = i + 1;
 dia_title		[i] = ["Ambient Temperature"];	// define the titles
 channels		[i] = ["TAirPitot_Mean"];	// define the channels for the diagrams
-min_max			[i] = [10, 35];	// define the min/max for the diagram y-axis
+min_max			[i] = [5, 35];	// define the min/max for the diagram y-axis
 unit			[i] = ["degC"];	// define the units
 color_channels	[i] = [colDefault];	// colors for channels ("" = standard color)
 pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
