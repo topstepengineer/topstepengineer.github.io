@@ -110,7 +110,7 @@ trendline_color	[6] = [""];	// Define colors for trend lines
 precision		[6] = [];	// define number of decimal places for y-axis
 
 dia_title		[7] = ["Diff Locking Integral"];	// define the titles
-channels		[7] = ["FIA_DTorqueFrontIllegal_Max" "FIA_DTorqueTotalIllegal_Max"];	// define the channels for the diagrams
+channels		[7] = ["FIA_DTorqueFrontIllegal_Max", "FIA_DTorqueTotalIllegal_Max"];	// define the channels for the diagrams
 min_max			[7] = [0, 100, 0, 100];	// define the min/max for the diagram y-axis
 unit			[7] = ["?", "?"];	// define the units
 color_channels	[7] = ["blue", "lightblue"];	// colors for channels ("" = standard color)
