@@ -53,7 +53,7 @@ trendline_color	[i] = [""];	// Define colors for trend lines
 precision		[i] = [];	// define number of decimal places for y-axis
 
 i = i + 1;
-dia_title		[i] = ["Wheelspin & TC Interventions"];	// define the titles
+dia_title		[i] = ["Wheelspin & TC Intervention"];	// define the titles
 channels		[i] = ["tSpin_End", "tTcIntervention_End"];	// define the channels for the diagrams
 min_max			[i] = [0, avgLaptime/2, 0, avgLaptime/2];	// define the min/max for the diagram y-axis
 unit			[i] = [" sec", " sec"];	// define the units
