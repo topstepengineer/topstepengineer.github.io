@@ -109,24 +109,35 @@ trend_line		[6] = [];	// define values for trend lines
 trendline_color	[6] = [""];	// Define colors for trend lines
 precision		[6] = [];	// define number of decimal places for y-axis
 
-dia_title		[7] = ["Average On-Throttle RPM"];	// define the titles
-channels		[7] = ["FCT_nEngineOnThrottle_Max"];	// define the channels for the diagrams
-min_max			[7] = [6000,9000];	// define the min/max for the diagram y-axis
-unit			[7] = ["RPM"];	// define the units
-color_channels	[7] = ["green"];	// colors for channels ("" = standard color)
+dia_title		[7] = ["Diff Locking Integral"];	// define the titles
+channels		[7] = ["FIA_DTorqueFrontIllegal_Max" "FIA_DTorqueTotalIllegal_Max"];	// define the channels for the diagrams
+min_max			[7] = [0, 100, 0, 100];	// define the min/max for the diagram y-axis
+unit			[7] = ["?", "?"];	// define the units
+color_channels	[7] = ["blue", "lightblue"];	// colors for channels ("" = standard color)
 pos_axis		[7] = [0];	// define position for y-axis (0 = left, 1 = right)
 dash_channels	[7] = [0];	// dash for channels (0 = no dash)
 trend_line		[7] = [];	// define values for trend lines
 trendline_color	[7] = [""];	// Define colors for trend lines
 precision		[7] = [];	// define number of decimal places for y-axis
 
-//dia_title		[8] = ["Gearbox Oil Level"];	// define the titles
-//channels		[8] = ["AJF_Level_GbxOil_min", "AJF_Level_GbxOil_max"];	// define the channels for the diagrams
-//min_max			[8] = [500, 5000];	// define the min/max for the diagram y-axis
-//unit			[8] = ["?"];	// define the units
-//color_channels	[8] = ["red", "green"];	// colors for channels ("" = standard color)
-//pos_axis		[8] = [0];	// define position for y-axis (0 = left, 1 = right)
-//dash_channels	[8] = [0];	// dash for channels (0 = no dash)
-//trend_line		[8] = [];	// define values for trend lines
-//trendline_color	[8] = [""];	// Define colors for trend lines
-//precision		[8] = [];	// define number of decimal places for y-axis
+dia_title		[8] = ["Average On-Throttle RPM"];	// define the titles
+channels		[8] = ["FCT_nEngineOnThrottle_Max"];	// define the channels for the diagrams
+min_max			[8] = [6000,9000];	// define the min/max for the diagram y-axis
+unit			[8] = ["RPM"];	// define the units
+color_channels	[8] = ["green"];	// colors for channels ("" = standard color)
+pos_axis		[8] = [0];	// define position for y-axis (0 = left, 1 = right)
+dash_channels	[8] = [0];	// dash for channels (0 = no dash)
+trend_line		[8] = [];	// define values for trend lines
+trendline_color	[8] = [""];	// Define colors for trend lines
+precision		[8] = [];	// define number of decimal places for y-axis
+
+//dia_title		[9] = ["Gearbox Oil Level"];	// define the titles
+//channels		[9] = ["AJF_Level_GbxOil_min", "AJF_Level_GbxOil_max"];	// define the channels for the diagrams
+//min_max			[9] = [500, 5000];	// define the min/max for the diagram y-axis
+//unit			[9] = ["?"];	// define the units
+//color_channels	[9] = ["red", "green"];	// colors for channels ("" = standard color)
+//pos_axis		[9] = [0];	// define position for y-axis (0 = left, 1 = right)
+//dash_channels	[9] = [0];	// dash for channels (0 = no dash)
+//trend_line		[9] = [];	// define values for trend lines
+//trendline_color	[9] = [""];	// Define colors for trend lines
+//precision		[9] = [];	// define number of decimal places for y-axis
