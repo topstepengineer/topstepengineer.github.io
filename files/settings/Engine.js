@@ -6,7 +6,7 @@ i=0;
 i = i + 1;
 dia_title		[i] = ["Min/Max RPM"];	// define the titles
 channels		[i] = ["FCT_nEngineOnThrottle_Max", "FCT_nEngineOnThrottle_Min"];	// define the channels for the diagrams
-min_max			[i] = [7000, 8500, 3000, 6000];	// define the min/max for the diagram y-axis
+min_max			[i] = [7000, 9000, 3000, 6000];	// define the min/max for the diagram y-axis
 unit			[i] = [" rpm", " rpm"];	// define the units
 color_channels	[i] = ["red", "green"];	// colors for channels ("" = standard color)
 pos_axis		[i] = ["", "right"];	// define position for y-axis (0 = left, 1 = right)
