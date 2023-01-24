@@ -14,9 +14,9 @@ var maxLaptime = 113;
 
 var maxSpeed = 305;
 
-var Drv1 = 'FUO' //'c68e366a-5a8f-4f3a-bd81-84b1e9762a1b';
-var Drv2 = 'APG' //'36151730-b89c-4305-84e7-445b05646872';
-var Drv3 = 'CAL' //'de7faf50-914b-4b92-b263-15aeabb7dc9c';
+var Drv1 = 'APG' //'c68e366a-5a8f-4f3a-bd81-84b1e9762a1b';
+var Drv2 = 'CAL' //'36151730-b89c-4305-84e7-445b05646872';
+var Drv3 = 'GIO' //'de7faf50-914b-4b92-b263-15aeabb7dc9c';
 
 var timeZoneOffset = 4;
 
