@@ -111,13 +111,13 @@ precision		[6] = [];	// define number of decimal places for y-axis
 
 dia_title		[7] = ["Diff Locking Integral"];	// define the titles
 channels		[7] = ["FIA_DTorqueFrontIllegal_Max", "FIA_DTorqueTotalIllegal_Max"];	// define the channels for the diagrams
-min_max			[7] = [0, 100, 0, 100];	// define the min/max for the diagram y-axis
+min_max			[7] = [0, 200, 0, 200];	// define the min/max for the diagram y-axis
 unit			[7] = ["?", "?"];	// define the units
 color_channels	[7] = ["blue", "lightblue"];	// colors for channels ("" = standard color)
 pos_axis		[7] = [0];	// define position for y-axis (0 = left, 1 = right)
 dash_channels	[7] = [0];	// dash for channels (0 = no dash)
-trend_line		[7] = [];	// define values for trend lines
-trendline_color	[7] = [""];	// Define colors for trend lines
+trend_line		[7] = [150];	// define values for trend lines
+trendline_color	[7] = ["red"];	// Define colors for trend lines
 precision		[7] = [];	// define number of decimal places for y-axis
 
 dia_title		[8] = ["Average On-Throttle RPM"];	// define the titles
