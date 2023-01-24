@@ -7,7 +7,7 @@ i=0;
 i = i + 1;
 dia_title		[i] = ["Tire Gas Pressures"];	// define the titles
 channels		[i] = ["pTyreFL_Mean", "pTyreFR_Mean", "pTyreRL_Mean", "pTyreRR_Mean"];	// define the channels for the diagrams
-min_max			[i] = [1.5, 3.2, 1.5, 3.2, 1.5, 3.2, 1.5, 3.2];	// define the min/max for the diagram y-axis
+min_max			[i] = [1.5, 2.2, 1.5, 2.2, 1.5, 2.2, 1.5, 2.2];	// define the min/max for the diagram y-axis
 unit			[i] = ["bar", "bar", "bar", "bar"];	// define the units
 color_channels	[i] = [colFL, colFR, colRL, colRR];	// colors for channels ("" = standard color)
 pos_axis		[i] = [0];	// define position for y-axis (0 = left, 1 = right)
