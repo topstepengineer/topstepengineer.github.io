@@ -13,8 +13,8 @@
   @include defineColorHSL(--cd-color-event-2, 271, 23%, 26%);   // Martinique
   @include defineColorHSL(--cd-color-event-3, 162, 14%, 68%);   // Edward
   @include defineColorHSL(--cd-color-event-4, 31, 89%, 68%);    // Rajah
-  @include defineColorHSL(--cd-color-event-50, 10, 25%, 25%);    // Red
-  @include defineColorHSL(--cd-color-event-51, 20, 25%, 25%);    // Red
+  @include defineColorHSL(--cd-color-event-50, 238, 100%, 50%);    // Blue
+  @include defineColorHSL(--cd-color-event-51, 0, 100%, 50%);    // Red
   @include defineColorHSL(--cd-color-text, 0, 0%, 13%);         // Black
   @include defineColorHSL(--cd-color-border, 0, 0%, 92%);       // Grey
 
