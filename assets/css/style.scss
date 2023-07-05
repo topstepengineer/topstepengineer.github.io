@@ -318,6 +318,16 @@ a {
 	background: var(--cd-color-event-4);
 }
 
+.cd-schedule__event [data-event="event-50"],
+.cd-schedule-modal[data-event="event-50"] .cd-schedule-modal__header-bg {
+	background: var(--cd-color-event-50);
+}
+
+.cd-schedule__event [data-event="event-51"],
+.cd-schedule-modal[data-event="event-51"] .cd-schedule-modal__header-bg {
+	background: var(--cd-color-event-51);
+}
+
 .cd-schedule-modal {
 	position: fixed;
 	z-index: 3;
